@@ -56,31 +56,6 @@ export const Intro = () => {
             View CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
-        <Button variant="secondary" size="icon" asChild>
-          <a
-            href="https://www.linkedin.com/in/seshu-edala-b91b55123/"
-            target="_linkedin"
-            aria-label="Linkedin"
-            download
-          >
-            <Icons.linkedin className="size-6" />
-          </a>
-        </Button>
-        <Button variant="secondary" size="icon" asChild>
-          <a href="https://github.com/nedala" target='_github' aria-label="Github">
-            <Icons.github className="size-6" />
-          </a>
-        </Button>
-        <Button variant="secondary" size="icon" asChild>
-          <a
-            href="https://fedworks.ai"
-            target="_website"
-            aria-label="Website"
-            download
-          >
-            <Icons.globe className="size-6" />
-          </a>
-        </Button>
         <Button
           variant="secondary"
           size="lg"
@@ -121,6 +96,21 @@ export const Intro = () => {
             }}
           >
             Local RAG Bot {'  '} <Icons.message className="ml-2 size-4" />
+          </a>
+        </Button>
+        <Button variant="secondary" size="icon" asChild>
+          <a
+            href="https://www.linkedin.com/in/seshu-edala-b91b55123/"
+            target="_linkedin"
+            aria-label="Linkedin"
+            download
+          >
+            <Icons.linkedin className="size-6" />
+          </a>
+        </Button>
+        <Button variant="secondary" size="icon" asChild>
+          <a href="https://github.com/nedala" target='_github' aria-label="Github">
+            <Icons.github className="size-6" />
           </a>
         </Button>
       </motion.div>

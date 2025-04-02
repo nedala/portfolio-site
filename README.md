@@ -6,7 +6,7 @@ Welcome to Seshu Edala's portfolio site! This project showcases Seshu's professi
 
 You can view the live version of the portfolio site at [http://gnyanai.ddns.net:4041/](http://gnyanai.ddns.net:4041/).
 
-![Portfolio Live Preview](public/portfolio_live.png)
+![Portfolio Live Preview](app/Portfolio/public/portfolio_live.png)
 
 ## Features
 

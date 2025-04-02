@@ -2,6 +2,12 @@
 
 Welcome to Seshu Edala's portfolio site! This project showcases Seshu's professional expertise, accomplishments, and technical skills in a visually appealing and interactive layout. The site also integrates advanced chatbot functionalities powered by both ChatGPT and a local LLM.
 
+## Live Preview
+
+You can view the live version of the portfolio site at [http://gnyanai.ddns.net:4041/](http://gnyanai.ddns.net:4041/).
+
+![Portfolio Live Preview](public/portfolio_live.png)
+
 ## Features
 
 ### 1. **Modern Layout**

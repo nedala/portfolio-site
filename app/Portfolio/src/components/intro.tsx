@@ -81,14 +81,46 @@ export const Intro = () => {
             <Icons.globe className="size-6" />
           </a>
         </Button>
-        <Button variant="secondary" size="icon" asChild>
+        <Button
+          variant="secondary"
+          size="lg"
+          className="hidden sm:flex text-blue-500"
+          asChild
+        >
+          <a href="https://chatgpt.com/g/g-67bf2be913c88191af0b432c2e108533-jobseshu" target="_chatgpt" rel="noopener noreferrer" aria-label="ChatGPT Link">
+            ResumeGPT {'  '}<Icons.message className="ml-2 size-4" />
+          </a>
+        </Button>
+        <Button
+          size="lg"
+          className="hidden sm:flex"
+          asChild
+        >
           <a
-            href="https://chatgpt.com/g/g-67bf2be913c88191af0b432c2e108533-jobseshu"
-            target="_chatgpt"
+            href="#contact"
+            rel="noopener noreferrer"
             aria-label="ChatGPT Link"
-            download
+            onClick={(e) => {
+              e.preventDefault();
+
+              // Locate the chatbot wrapper
+              const flowise = document.querySelector('flowise-chatbot');
+
+              if (flowise) {
+                // Now find the nested button (you could also refine this with a querySelector)
+                const openButton = flowise.shadowRoot?.querySelector('button') || flowise.querySelector('button');
+
+                if (openButton) {
+                  openButton.click();
+                } else {
+                  console.warn('Chatbot button not found inside <flowise-chatbot>.');
+                }
+              } else {
+                console.warn('<flowise-chatbot> not found in DOM.');
+              }
+            }}
           >
-            <Icons.message className="size-6" />
+            Local RAG Bot {'  '} <Icons.message className="ml-2 size-4" />
           </a>
         </Button>
       </motion.div>

@@ -1,0 +1,15 @@
+# Use Node.js for dev
+FROM node:22
+
+# Create work directory
+WORKDIR /app/Portfolio
+
+# Copy entrypoint script
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Set entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
+
+# Default command (can be overridden)
+CMD ["npm", "run", "dev"]

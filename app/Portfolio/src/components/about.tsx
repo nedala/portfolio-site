@@ -47,7 +47,7 @@ export const About = () => {
             width="100%"
             height="100%"
             loading="lazy"
-            className="w-72 h-72 rounded-lg border-6 dark:border-gray-500 shadow-xl object-cover"
+            className="w-72 h-72 rounded-lg border-6 dark:border-gray-500 shadow-xl object-cover opacity-90 dark:filter dark:grayscale"
           />
         </div>
       </div>

@@ -42,7 +42,7 @@ export const About = () => {
         {/* Right Section */}
         <div className="flex-1 flex mt-0 md:mt-0 max-w-2xl">
           <img
-            src="/seshu_guilloche.png"
+            src="/seshu_portrait.png"
             alt="Narasimha Seshu Edala"
             width="100%"
             height="100%"

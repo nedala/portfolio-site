@@ -42,12 +42,12 @@ export const About = () => {
         {/* Right Section */}
         <div className="flex-1 flex mt-0 md:mt-0 max-w-2xl">
           <img
-            src="/seshu_fed1.jpg"
+            src="/seshu_fed.png"
             alt="Narasimha Seshu Edala"
             width="100%"
             height="100%"
             loading="lazy"
-            className="w-72 h-72 rounded-lg border-6 dark:border-gray-500 shadow-xl object-cover opacity-90"
+            className="w-64 h-64 rounded-lg border-6 dark:border-gray-500 shadow-xl object-cover opacity-90"
           />
         </div>
       </div>

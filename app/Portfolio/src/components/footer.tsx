@@ -11,7 +11,7 @@ export const Footer = () => {
       {/* Include the static script block */}
       <Script type="module" strategy="afterInteractive">
         {`
-          import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+          import Chatbot from "http://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
           Chatbot.init({
               chatflowid: "c074e9eb-4e54-4107-a298-78bb2dc8945e",
               apiHost: "http://192.168.27.10:33000",

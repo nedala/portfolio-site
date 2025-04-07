@@ -110,7 +110,7 @@ export const experiencesData = [
     important: true,
     description:
       'Implemented scalable ML pipelines and infrastructure on GCP for fortune 50 clients. Benchmarked Colab vs Databricks on AWS, Azure, and Databricks for GCP Vertex AI GTM planning; deployed Kubernetes-native data workflows.',
-    date: '2020',
+    date: '2020 - 2020',
   },
   {
     title: 'Director of Data Science',

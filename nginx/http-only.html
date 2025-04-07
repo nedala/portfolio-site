@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Use HTTP to visit Seshu's Portfolio</title>
+
+    <!-- ✅ Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Optional Redirect -->
+    <meta http-equiv="refresh" content="5;url=http://gnyanai.ddns.net:4041/" />
+
+    <!-- ✅ Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 💡 You can tweak colors and fonts via tailwind.config if needed -->
+  </head>
+  <body class="bg-white text-gray-800 dark:bg-black dark:text-white flex items-center justify-center min-h-screen p-6">
+    <div class="text-center max-w-md">
+      <h1 class="text-3xl font-bold mb-4 text-blue-600">This site is HTTP-only</h1>
+      <p class="text-lg mb-6">
+        Some browsers (especially mobile) automatically try to use HTTPS. This site is not available over HTTPS.
+      </p>
+      <p class="text-sm text-gray-500 mb-6">Redirecting in 5 seconds...</p>
+      <a
+        href="http://gnyanai.ddns.net:4041/"
+        class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
+      >
+        Go to HTTP version
+      </a>
+    </div>
+  </body>
+</html>

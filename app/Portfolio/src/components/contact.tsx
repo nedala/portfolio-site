@@ -32,7 +32,7 @@ export const Contact = () => {
         heading="Me"
         content={
           <span className="max-w-4xl text-lg align-left text-left">
-            <div>I am <span className="text-blue-500 font-bold">#opentowork</span>. My <a href="/nedala.pdf" className="underline-offset-4 hover:underline font-bold text-blue-500">#resume</a>. Email me at {' '}
+            <div>I am <span className="text-blue-500 font-bold">#opentowork</span>. My <a href="/nedala.pdf" className="underline-offset-4 hover:underline font-bold text-blue-500" target="_blank">#resume</a>. Email me at {' '}
             <Button
               variant="link"
               className="text-muted-foreground p-0 font-medium text-lg"

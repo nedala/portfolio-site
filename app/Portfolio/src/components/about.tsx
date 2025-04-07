@@ -40,14 +40,12 @@ export const About = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex-1 flex mt-0 md:mt-0 max-w-2xl">
+        <div className="flex-1 flex mt-0 md:mt-0 max-w-2xl justify-center align-top">
           <img
-            src="/seshu_fed.png"
+            src="/seshu_ai.png"
             alt="Narasimha Seshu Edala"
-            width="100%"
-            height="100%"
             loading="lazy"
-            className="w-64 h-64 rounded-lg border-6 dark:border-gray-500 shadow-xl object-cover opacity-90"
+            className="w-72 h-72 rounded-full border-3 border-gray-300 shadow-xl object-cover gray-200 dark:shadow-gray-800 dark:border-gray-700 min-w-72 min-h-72 align-top"
           />
         </div>
       </div>

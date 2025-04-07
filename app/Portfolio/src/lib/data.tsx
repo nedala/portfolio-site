@@ -41,6 +41,12 @@ export const projectsData = [
     website: 'https://fedworks.ai'
   },
   {
+    icon: <Icons.databloom width={64} height={64} />,
+    title: 'data-bloom.com',
+    description: 'Machine Learning and Data Science Solutions for the Fortune 100 Inc.',
+    website: 'https://data-bloom.com'
+  },
+  {
     icon: <Icons.youtube width={64} height={64} />,
     title: 'enya media works',
     description:

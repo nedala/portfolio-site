@@ -16,7 +16,8 @@ import {
   SendHorizonal,
   MessageCircle,
   Play,
-  X
+  X,
+  DatabaseZap
 } from 'lucide-react';
 
 export const Icons = {
@@ -37,6 +38,7 @@ export const Icons = {
   message: MessageCircle,
   play: Play,
   close: X,
+  databloom: DatabaseZap,
   audiophile: (props: LucideProps) => (
     <svg
       width="64"

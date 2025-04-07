@@ -57,28 +57,34 @@ export const Project = ({ project, index }: TProps) => {
           once: true,
         }}
         custom={index}
-        className="bg-gray-100 dark:bg-gray-800 flex flex-col items-center rounded p-5 text-center md:w-1/3"
+        className="bg-gray-100 dark:bg-gray-800 flex flex-col justify-between rounded p-5 text-center"
       >
-        <div className="bg-muted w-fit rounded-full p-4 dark:text-blue-300 text-blue-400">{icon}</div>
-        <h3 className="my-2 text-lg font-bold text-blue-500">{title}</h3>
-        <p className="text-muted-foreground">{description}</p>
-        <div className="mt-2 flex">
+        <div className="flex flex-col items-center">
+          <div className="bg-muted w-fit rounded-full p-4 dark:text-blue-300 text-blue-400">
+            {icon}
+          </div>
+          <h3 className="my-2 text-lg font-bold text-blue-500">{title}</h3>
+          <p className="text-muted-foreground">{description}</p>
+        </div>
+
+        <div className="mt-4 flex justify-center">
           {isVideo ? (
             <Button
               variant="outline"
-              className="mr-2 px-5 text-blue-300"
+              className="text-blue-300 p-2 rounded-full"
               onClick={() => setIsModalOpen(true)}
             >
               <Icons.play className="size-5" />
             </Button>
           ) : (
-            <Button variant="outline" asChild className="mr-2 px-5 text-blue-300">
+            <Button variant="outline" asChild className="text-blue-300 p-2 rounded-full">
               <a href={website} aria-label="website" target="_blank" rel="noopener noreferrer">
                 <Icons.globe className="size-5" />
               </a>
             </Button>
           )}
         </div>
+
       </motion.div>
 
       {isModalOpen && isVideo && (

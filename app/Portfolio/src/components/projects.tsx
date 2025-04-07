@@ -34,7 +34,7 @@ export const Projects = ({ projectsStarsCount }: TProps) => {
           heading="Ventures"
         />
       </motion.div>
-      <div className="flex flex-col gap-8 md:flex-row">
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {projectsData.map((project, index) => (
           <Project
             key={project.title}

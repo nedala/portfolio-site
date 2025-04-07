@@ -25,8 +25,8 @@ export const About = () => {
           <p className="mb-4">
             I am Narasimha <span className="text-blue-500">&quot;Seshu&quot;</span> Edala, a technology leader with over 25 years of experience driving innovation across
             <span className="text-blue-500"> AI, data, analytics, cloud, and enterprise applications</span>. I&apos;ve led transformative initiatives at
-            <span className="text-blue-500"> Microsoft, Google, Intel, Raytheon, HPE</span>, and served in executive roles within the
-            <span className="text-blue-500"> U.S. federal sector</span>. My portfolio includes scaling data platforms, engineering real-time AI systems, and launching
+            <span className="text-blue-500"> <a href="#experience" className="text-blue-500">Microsoft, Google, Intel, Raytheon, HPE</a></span>, and served in executive roles within the
+            <span className="text-blue-500"> <a href="#experience" className="text-blue-500">U.S. federal sector</a></span>. My portfolio includes scaling data platforms, engineering real-time AI systems, and launching
             state-of-the-art, enterprise-grade solutions across mission-critical domains.
           </p>
           <p className="mb-4">
@@ -35,7 +35,7 @@ export const About = () => {
             my work bridges R&D innovation and business impact.
           </p>
           <p>
-            As the founder of <span className="text-blue-500"> multiple AI ventures</span> and a trusted advisor to both public and private sectors, I thrive at the intersection of strategy, architecture, and applied machine intelligence. I’m always open to transformative collaborations that push boundaries and deliver measurable value.
+            As the founder of <a href="#projects" className="text-blue-500">multiple AI ventures</a> and a trusted advisor to both public and private sectors, I thrive at the intersection of strategy, architecture, and applied machine intelligence. I’m always open to transformative collaborations that push boundaries and deliver measurable value.
           </p>
         </div>
 

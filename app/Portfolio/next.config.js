@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // ✅ tells Next to statically export the site
     images: {
       unoptimized: true, // ✅ required for static export if using <Image />
     },
+    staticPageGenerationTimeout: 60, // ✅ Increases timeout for large video files
   };
   
-  module.exports = nextConfig;
+module.exports = nextConfig;

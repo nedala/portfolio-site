@@ -36,6 +36,7 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/dummy.crt:/etc/nginx/dummy.crt:ro
       - ./nginx/dummy.key:/etc/nginx/dummy.key:ro
+      - ./videos:/usr/share/nginx/html/videos:ro # ✅ Mount the videos folder
     depends_on:
       - portfolio-dev
 

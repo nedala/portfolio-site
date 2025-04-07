@@ -14,7 +14,9 @@ import {
   Brain,
   Landmark,
   SendHorizonal,
-  MessageCircle
+  MessageCircle,
+  Play,
+  X
 } from 'lucide-react';
 
 export const Icons = {
@@ -33,6 +35,8 @@ export const Icons = {
   landmark: Landmark,
   send: SendHorizonal,
   message: MessageCircle,
+  play: Play,
+  close: X,
   audiophile: (props: LucideProps) => (
     <svg
       width="64"

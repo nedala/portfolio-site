@@ -39,7 +39,7 @@ export const Contact = () => {
               >
                 nedala@gmail.com
               </a> {' '}
-            to <span className="text-blue-500 font-bold">discuss a career opportunity.</span> <p className="mt-12">Instead, if you wish to discuss or collaborate on an enterprising idea, please feel free to reach out too.</p>
+            to <span className="text-blue-500 font-bold">discuss a career opportunity.</span> <p className="mt-12">Instead, if you wish to discuss or collaborate on an enterprising idea, please feel free to reach out too. If you wish to build agentic, generative, analytical AI applications that are <span className="text-blue-500 font-bold">secure</span> and <span className="text-blue-500 font-bold">local</span>, you know how to <span className="text-blue-500 font-bold">get in touch</span>.</p>
             </div></span>
         }
       />

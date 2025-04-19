@@ -100,8 +100,8 @@ export const Footer = () => {
                       },
                       footer: {
                           textColor: '#303235',
-                          text: 'AI Generated. Use with caution. ',
-                          company: 'Ollama with neural-chat model',
+                          text: 'AI Results. Exercise Caution. ',
+                          company: 'Local LLM CAG built by Seshu',
                           companyLink: 'https://gnyan.ai',
                       }
                   }

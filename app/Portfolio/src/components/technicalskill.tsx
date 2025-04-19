@@ -31,6 +31,7 @@ export const TechnicalSkill = ({ category, items, index }: TProps) => {
           </li>
         ))}
       </ul>
+      <div className="mb-6"></div>
     </motion.div>
   );
 };

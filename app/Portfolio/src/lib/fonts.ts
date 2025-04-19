@@ -1,6 +1,6 @@
-import { Inter } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 
-const fontSans = Inter({
+const fontSans = Open_Sans({
   subsets: ['latin'],
   variable: '--font-sans',
 });

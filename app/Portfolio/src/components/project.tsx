@@ -57,7 +57,7 @@ export const Project = ({ project, index }: TProps) => {
           once: true,
         }}
         custom={index}
-        className="bg-gray-100 dark:bg-gray-800 flex flex-col justify-between rounded p-5 text-center"
+        className="bg-gray-100 dark:bg-gray-700 flex flex-col justify-between rounded p-5 text-center"
       >
         <div className="flex flex-col items-center">
           <div className="bg-muted w-fit rounded-full p-4 dark:text-blue-300 text-blue-400">
@@ -74,12 +74,12 @@ export const Project = ({ project, index }: TProps) => {
               className="text-blue-300 p-2 rounded-full"
               onClick={() => setIsModalOpen(true)}
             >
-              <Icons.play className="size-5" />
+              <Icons.play className="size-5 text-blue-500 font-bold" />
             </Button>
           ) : (
             <Button variant="outline" asChild className="text-blue-300 p-2 rounded-full">
               <a href={website} aria-label="website" target="_blank" rel="noopener noreferrer">
-                <Icons.globe className="size-5" />
+                <Icons.globe className="size-5 text-blue-500 font-bold" />
               </a>
             </Button>
           )}

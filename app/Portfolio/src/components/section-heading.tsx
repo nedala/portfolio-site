@@ -11,7 +11,7 @@ export const SectionHeading = ({ bheading, heading, content }: TProps) => {
     <div className="mb-10 text-center">
       <h2 className="text-4xl font-bold tracking-tighter"><span className="text-blue-500">{bheading}</span> {heading}</h2>
       {content && (
-        <div className="text-muted-foreground mt-2 text-sm">{content}</div>
+        <div className="mt-2 text-sm">{content}</div>
       )}
     </div>
   );

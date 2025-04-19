@@ -51,7 +51,7 @@ export const projectsData = [
     title: 'enya media works',
     description:
       'Recoloring, Restoring and Curating old videos, photos, and audio footage with AI.',
-    website: '/NTR_browser_safe.mp4',
+    website: '/marilyn.mp4',
   }
 ] as const;
 

@@ -47,7 +47,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-6xl font-extrabold leading-tight tracking-tighter sm:text-6xl text-left max-w"
       >
-        <span className="text-blue-500">Data, AI, Analytics, Apps, Cloud</span> Professional
+        <span className="text-blue-500">Data, AI, Analytics, Apps, &amp; Cloud</span> Professional
       </motion.h1>
 
       <motion.p
